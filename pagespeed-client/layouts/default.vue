@@ -36,7 +36,7 @@
 
 <script>
 // audit data parsing server api endpoint
-const API_ENDPOINT = 'http://localhost:8080/api/audit'
+const API_ENDPOINT = 'https://audit-api.herokuapp.com/api/audit'
 // basic url check
 const URL_REG_EX = /^(https?:\/\/)([\da-z.-]+)\.([a-z.]{2,6})([/\w .-]*)*\/?$/
 
